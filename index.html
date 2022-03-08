@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=1024">
+    <title>BUMPER GAME 😂🤣😂</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Goblin+One&family=Pangolin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon"  href="icon.jpg">
+    <script src="main.js" type="text/javascript"></script>
+    <script data-ad-client="ca-pub-2760760763265181" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+
+<body onload="startGame();">
+    <p id="blink" style="color:red;">Tap anywhere on the Screen to Jump</p>
+    <!--<audio id="mySong1">
+        <source src="Dialogues.mp3" type="audio/mp3"> 
+    </audio>-->
+    <audio id="mySong2">
+        <source src="bgm.mp3" type="audio/mp3"> 
+    </audio>
+    <button class="btn btn-outline-primary" onClick="window.location.reload();">Start Game</button> <br>
+   <br>
+    <div class="contact">
+      <p class="founder">Contact us : nayabrasoolshaik1020@gmail.com</p>
+    </div>
+    <script type="text/javascript">
+        var blink = document.getElementById('blink');
+        setInterval(function() {
+            blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0);
+        }, 2000);
+    </script>
+</body>
+
+</html>
